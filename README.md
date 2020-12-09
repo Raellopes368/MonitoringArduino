@@ -19,3 +19,9 @@ instale a Biblioteca
 #### TinyGPS.h 
 no link https://drive.google.com/file/d/0B91L9po09u35NU9UdXRBYS1OTXM/view
 
+
+
+
+## Montagem
+
+O módulo GPS, está configurado na linha 7, faça a montagem de acordo com sua definição dos pinos RX e TX no Arduino, lembre-se que o pino RX do módulo deve ir ligado ao pino TX do arduino (TX configurado no SoftSerial) e vice versa, o mesmo acontece para o módulo Gsm configurado na linha 20
